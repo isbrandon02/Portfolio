@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.inline {
+  display: inline;
+}
+
+.pagelink {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#pagedisplay {
+  background-color: blue;
+  height:80px;
+}
+
+#pagedisplay > p {
+  color: black;
+  font-size: 40px;
+  padding-top: 15px;
+}
