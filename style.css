@@ -12,22 +12,28 @@ html {
   margin-bottom: 30px;
 }
 
-.inline {
+.banner {
+  background-color: #007BFF;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
   display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.pagelink {
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-#pagedisplay {
-  background-color: blue;
-  height:80px;
-}
-
-#pagedisplay > p {
-  color: black;
-  font-size: 40px;
-  padding-top: 15px;
+nav a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
 }
